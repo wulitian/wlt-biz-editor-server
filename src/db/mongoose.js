@@ -4,9 +4,9 @@
  */
 
 const mongoose = require('mongoose')
-const {mongodbConf} = require('../config/index')
+const { mongodbConf } = require('../config/index')
 
-const {host, port, dbName, user, password} = mongodbConf
+const { host, port, dbName, user, password } = mongodbConf
 
 // 拼接连接字符串
 let url = `mongodb://${host}:${port}` // dev 环境

@@ -20,5 +20,4 @@ redisClient.on('error', err => {
 // 可运行 node src/db/redis.js 测试连接
 //
 
-
 module.exports = redisClient
