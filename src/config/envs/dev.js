@@ -22,6 +22,6 @@ module.exports = {
     // redis 连接配置
     redisConf: {
         host: '192.168.220.180',
-        port: '6379'
+        port: '6379',
     },
 }
